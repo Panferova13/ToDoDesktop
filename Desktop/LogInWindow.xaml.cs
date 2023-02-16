@@ -1,4 +1,10 @@
-﻿namespace Desktop
+﻿using System.Windows;
+using System.Windows.Controls;
+using System.Windows.Media;
+using Desktop.Properties;
+using Desktop.Repository;
+
+namespace Desktop
 {
     /// <summary>
     /// Interaction logic for MainWindow.xaml
@@ -8,7 +14,6 @@
         public LogInWindow()
         {
             InitializeComponent();
-<<<<<<< HEAD:Desktop/LogInWindow.xaml.cs
             Manager.CurrentWindow = this;
         }
         private void LoginBtn_Click(object sender, RoutedEventArgs e)
@@ -16,10 +21,19 @@
             if (Validator.EmailValid(LoginMailTxb) == null && 
                 Validator.PassValid(LoginPasswTxb) == null)
             {
-                var wind = new MainEmptyWindow();
-                wind.Show();
-                this.Hide();
-                
+                var loginUser = UserRepository.LogIn(LoginMailTxb.Text, LoginPasswTxb.Text);
+
+                if (loginUser != null)
+                {
+                    var wind = new MainEmptyWindow();
+                    wind.Show();
+                    this.Hide();
+                }
+                else
+                {
+                    MessageBox.Show("Пользователя не существует");
+                }
+
             }
             else
             {
@@ -64,8 +78,6 @@
             if(LoginPasswTxb.Text!="") return;
             LoginPasswTxb.Text = "Введите пароль";
             LoginPasswTxb.Foreground = new SolidColorBrush(Colors.Gray);
-=======
->>>>>>> parent of fbb547b (Lab1):Desktop/MainWindow.xaml.cs
         }
         #endregion
     }

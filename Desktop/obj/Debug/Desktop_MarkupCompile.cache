@@ -4,30 +4,17 @@
 winexe
 C#
 .cs
-<<<<<<< HEAD
-C:\Users\User\Documents\ToDo\Desktop\obj\Debug\
-=======
-C:\Users\user\Desktop\ToDo-master\Desktop\obj\Debug\
->>>>>>> parent of fbb547b (Lab1)
+C:\Users\User\RiderProjects\ToDo\Desktop\obj\Debug\
 Desktop
 none
 false
 DEBUG;TRACE
-<<<<<<< HEAD
-C:\Users\User\Documents\ToDo\Desktop\App.xaml
+C:\Users\User\RiderProjects\ToDo\Desktop\App.xaml
 4-1952951312
 
-91471039034
-91659208413
+10-2047901852
+10-619083396
 CreateTaskWindow.xaml;LogInWindow.xaml;MainEmptyWindow.xaml;RegistrationWindow.xaml;
-=======
-C:\Users\user\Desktop\ToDo-master\Desktop\App.xaml
-1219584333
-11267795446
-5-1758197439
-9-1753732648
-MainWindow.xaml;
->>>>>>> parent of fbb547b (Lab1)
 
-True
+False
 
