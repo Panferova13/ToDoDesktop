@@ -1,9 +1,4 @@
-﻿using System.Windows;
-using System.Windows.Controls;
-using System.Windows.Media;
-using Desktop.Properties;
-
-namespace Desktop
+﻿namespace Desktop
 {
     /// <summary>
     /// Interaction logic for MainWindow.xaml
@@ -13,6 +8,7 @@ namespace Desktop
         public LogInWindow()
         {
             InitializeComponent();
+<<<<<<< HEAD:Desktop/LogInWindow.xaml.cs
             Manager.CurrentWindow = this;
         }
         private void LoginBtn_Click(object sender, RoutedEventArgs e)
@@ -68,6 +64,8 @@ namespace Desktop
             if(LoginPasswTxb.Text!="") return;
             LoginPasswTxb.Text = "Введите пароль";
             LoginPasswTxb.Foreground = new SolidColorBrush(Colors.Gray);
+=======
+>>>>>>> parent of fbb547b (Lab1):Desktop/MainWindow.xaml.cs
         }
         #endregion
     }

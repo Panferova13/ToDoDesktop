@@ -50,6 +50,7 @@
             <Generator>MSBuild:Compile</Generator>
             <SubType>Designer</SubType>
         </ApplicationDefinition>
+<<<<<<< HEAD
         <Compile Include="CreateTaskWindow.xaml.cs">
           <DependentUpon>CreateTaskWindow.xaml</DependentUpon>
         </Compile>
@@ -63,6 +64,9 @@
         <Compile Include="Validator.cs" />
         <Page Include="CreateTaskWindow.xaml" />
         <Page Include="LogInWindow.xaml">
+=======
+        <Page Include="MainWindow.xaml">
+>>>>>>> parent of fbb547b (Lab1)
             <Generator>MSBuild:Compile</Generator>
             <SubType>Designer</SubType>
         </Page>
@@ -74,8 +78,11 @@
             <DependentUpon>LogInWindow.xaml</DependentUpon>
             <SubType>Code</SubType>
         </Compile>
+<<<<<<< HEAD
         <Page Include="MainEmptyWindow.xaml" />
         <Page Include="RegistrationWindow.xaml" />
+=======
+>>>>>>> parent of fbb547b (Lab1)
     </ItemGroup>
     <ItemGroup>
         <Compile Include="Properties\AssemblyInfo.cs">

@@ -5,14 +5,15 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Desktop"
         mc:Ignorable="d"
+<<<<<<< HEAD:Desktop/LogInWindow.xaml
         Title="MainWindow" Height="650" Width="800"
         ResizeMode="NoResize">
+=======
+        Title="MainWindow" Height="600" Width="800">
+>>>>>>> parent of fbb547b (Lab1):Desktop/MainWindow.xaml
     <Grid>
-        <Grid.ColumnDefinitions>
-            <ColumnDefinition></ColumnDefinition>
-            <ColumnDefinition></ColumnDefinition>
-        </Grid.ColumnDefinitions>
         
+<<<<<<< HEAD:Desktop/LogInWindow.xaml
         <Grid.RowDefinitions>
             <RowDefinition Height="111"></RowDefinition>
             <RowDefinition Height="140"></RowDefinition>
@@ -77,4 +78,7 @@
             </Button>
         </WrapPanel>
     </Grid>
+=======
+    </Grid> 
+>>>>>>> parent of fbb547b (Lab1):Desktop/MainWindow.xaml
 </Window>
